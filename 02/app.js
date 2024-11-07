@@ -1,4 +1,4 @@
-const x = 6;
+const x = 5;
 
 const sumOfNumbers = (x) => {
     let result = 0;
@@ -8,4 +8,14 @@ const sumOfNumbers = (x) => {
     return result;
 } 
 
-console.log(sumOfNumbers(x));
+const sumOfNumbersWhile = (x) => {
+    let result = 0;
+    let j = 1;
+    while (j <= x) {
+        result = result + j;
+        j++;
+    }
+    return result;
+} 
+
+console.log(sumOfNumbersWhile(x));
